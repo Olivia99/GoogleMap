@@ -143,7 +143,7 @@ extension ViewController: MKMapViewDelegate{
                 let streetNumber = placemark.subThoroughfare ?? ""
           let streetName = placemark.thoroughfare ?? ""
                 
-                DispatchQueue.main.sync {
+                DispatchQueue.main.async {
                     self.addressLabel.text = "\(streetNumber) \(streetName)"
                 }
         }
