@@ -22,7 +22,7 @@
                                 </connections>
                             </mapView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green_pin" translatesAutoresizingMaskIntoConstraints="NO" id="NZe-2k-9se">
-                                <rect key="frame" x="187" y="388" width="40" height="40"/>
+                                <rect key="frame" x="187" y="408" width="40" height="40.000000000000455"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="P9R-Jp-IfK"/>
                                     <constraint firstAttribute="width" constant="40" id="US1-ko-K90"/>
@@ -45,7 +45,7 @@
                             <constraint firstAttribute="trailing" secondItem="S4y-nL-3M7" secondAttribute="trailing" id="AQm-Kh-t7m"/>
                             <constraint firstItem="S4y-nL-3M7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Hhx-T8-sd6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ol2-Te-J0m" secondAttribute="bottom" id="KQd-6o-RaW"/>
-                            <constraint firstItem="NZe-2k-9se" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40" id="TXU-Pt-dfg"/>
+                            <constraint firstItem="NZe-2k-9se" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="TXU-Pt-dfg"/>
                             <constraint firstItem="NZe-2k-9se" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cpX-aj-KS5"/>
                             <constraint firstAttribute="trailing" secondItem="ol2-Te-J0m" secondAttribute="trailing" id="hfg-VU-Cry"/>
                             <constraint firstItem="ol2-Te-J0m" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="msX-nZ-bos"/>
